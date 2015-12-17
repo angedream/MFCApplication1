@@ -79,6 +79,7 @@ void CMFCApplication1View::OnInitialUpdate()
 	Navigate2(_T("file://C:/Users/zilong/Documents/Visual Studio 2015/Projects/MFCApplication1/MFCApplication1/NvHtml/cggl.htm"),NULL,NULL);
 	//别忘了#include <MsHTML.h>
 	//m_WebBrowser是一个WebBrowser的Activex控件对象。
+	MessageBox(L"hello world");
 	
 
 }
